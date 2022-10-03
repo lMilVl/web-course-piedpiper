@@ -1,0 +1,234 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+
+  html {
+    -webkit-box-sizing:  border-box;
+            box-sizing:  border-box;
+  } 
+  
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Roboto';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color:black;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  .wrapper {
+    max-width: 1219px;
+    margin: 0 auto; /* разместить по центру */
+    padding: 0 55px;
+  }
+
+  .title__sections {   
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    font-weight: bold;
+  }
+
+  /* Header style is start */
+    .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #007765;
+  }
+
+  .header__wrapper { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .header__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+  }
+  
+  .header__item {
+    display:inline;
+    border-right: 3px solid white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding:0 8px;
+  }
+
+  .header__item:last-child {
+    border-right: none;
+  }
+
+  .header__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+  }
+
+  /* Intro style is start */
+
+  .intro {
+    margin-top: 84px;
+    background: url(../img/intro.jpg) center/cover;
+  }
+
+  .intro__title {
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: white;
+    padding: 160px 0;
+  }
+
+  .problem {
+    background: #EEEEEE;
+  }
+
+  .problem__title {
+    padding-top: 48px;
+    padding-bottom: 16px;
+  }
+
+  .problem__desc {
+    padding-bottom: 92px;
+  }
+
+  /* Hero style is start */
+
+  .hero {
+    background: url(../img/hero.jpg) center/cover;
+  }
+
+  .hero__info {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: white;
+    padding: 128px 103px;
+  }
+
+  /* Introducing style is start */
+
+  .introducing {
+    background: white;
+  }
+
+  .introducing__title {  
+    padding-top: 48px;
+    padding-bottom: 16px;
+  }
+
+  .introducing__info-pic {
+    float: left;
+    margin-right: 48px;
+  }
+
+  .introducing__info-desc_first {
+    margin-bottom: 40px;
+  }
+
+  .introducing__info-desc_second {
+    margin-bottom: 92px;
+  }
+
+  /* Team styles are start */
+
+  .team {
+    background: #EEEEEE;
+  }
+
+  .team__title {
+   padding-top: 58px;
+   padding-bottom: 32px;
+  }
+
+  .team__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+   padding-bottom: 84px;
+  }
+
+  .team__card {
+    text-align: center;
+  }
+
+  .team__card-pic {
+    padding-top: 24px;
+    padding-bottom: 12px;
+  }
+
+  .team__card-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+  }
+
+  .team__card-profession {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  /* Footer styles are start */
+
+  .footer {
+    background: #333333;
+  }
+
+  .footer__info {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    padding: 50px 308px 62px 308px;
+  }
+
+
+
+
+
+  
+
+
+
+  
